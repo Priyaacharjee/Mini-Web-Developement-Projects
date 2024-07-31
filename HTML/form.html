@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="/CSS/form.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="reg">
+    <h2>Registration Form</h2>
+    </div>
+    <form>
+      <div class="main">
+        <div class="deco">
+          <label for="name">Name :</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+
+        <div class="deco">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" placeholder="Enter your mailid">
+        </div>
+
+        <div class="deco">
+          <label for="ph">Ph no :</label>
+          <input type="text" id="ph" name="ph" placeholder="Enter your ph no">
+        </div>
+
+        <div class="deco">
+          <label for="course">Course Name :</label>
+          <select id="course" name="course" >
+            <option hidden>Select your course</option>
+            <option value="cse">CSE</option>
+            <option value="cseds">CSE(DS)</option>
+            <option value="ece">ECE</option>
+          </select><br>
+        </div>
+      </div>
+      <div class="main2">
+        <div class="deco1">
+          <label>Gender :
+            <input type="checkbox" id="gender">
+            <label for="course">Male</label>
+            <input type="checkbox" id="course">
+            <label for="course">Female</label>
+            <input type="checkbox" id="course">
+            <label for="course">Others</label>
+          </label>
+        </div>
+        <div class="deco1">
+          <label>Are you Graduate ?
+            <input type="checkbox">
+            <label for="graduate">Yes</label>
+            <input type="checkbox">
+            <label for="graduate">No</label>
+            <br>
+          </label>
+        </div>
+      </div>  
+
+      <div class="button">
+          <input type="submit" value="Submit">
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
+</html>
