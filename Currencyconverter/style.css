@@ -3,20 +3,28 @@
     padding:0;
 }
 
-body{
-    display:flex;
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color:#F8F4E3 ;
+    background-image: url(https://img.freepik.com/premium-vector/global-currency-background_115579-405.jpg?size=626&ext=jpg&ga=GA1.1.397461144.1724240587&semt=ais_hybrid); /* A world map with currency symbols */
+    background-size: cover;
+    background-position: center;
+    background-color: #d5bb46; /* Fallback color */
 }
+
 
 .container{
     background-color: rgb(110, 181, 243);
     padding: 2rem;
     border-radius: 1rem;
-    min-height: 45vh;
-    width:40vh;
+    min-height: 50vh;
+    width:50vh;
+    color: aliceblue;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://img.freepik.com/premium-vector/money-transfer-background_115579-655.jpg?size=626&ext=jpg&ga=GA1.1.397461144.1724240587&semt=ais_hybrid);
+    background-size: cover;
+    background-position: center;
 }
 
 form{
@@ -30,6 +38,9 @@ form select,button,input{
     border-radius: 0.75rem;
 }
 
+.div{
+    border: 2px solid red;
+}
 form input{
     margin-top: 1rem;
     border: 1px solid lightgrey;
@@ -37,6 +48,7 @@ form input{
     height: 3rem;
     padding-left:0.5rrem ;
 }
+
 
 .dropdown{
     display: flex;
